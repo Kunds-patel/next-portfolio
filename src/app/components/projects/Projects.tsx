@@ -7,8 +7,8 @@ const Projects = () => {
       <section id="Projects">
         Projects
         <div id="top_down">
-          <AiOutlineArrowDown />
-          <AiOutlineArrowUp />
+          {/* <AiOutlineArrowDown />
+          <AiOutlineArrowUp /> */}
         </div>
       </section>
     </div>

@@ -8,7 +8,7 @@ const Contact = () => {
       <section id="Contact">
         <h2 className="text-3xl text-center font-extrabold">Get In Touch</h2>
         <div id="top_down">
-          <AiOutlineArrowUp />
+          {/* <AiOutlineArrowUp /> */}
         </div>
         <Footer />
       </section>

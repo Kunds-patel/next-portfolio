@@ -16,7 +16,7 @@ const Hom = () => {
           </div>
         </div>
         <div id="top_down">
-          <AiOutlineArrowDown />
+          {/* <AiOutlineArrowDown /> */}
         </div>
       </section>
     </div>
