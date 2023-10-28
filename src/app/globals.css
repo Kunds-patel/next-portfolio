@@ -12,9 +12,17 @@
 
 html {
   scroll-behavior: smooth;
-  
 }
 
-section{
-    @apply h-screen pt-11;
+section {
+  @apply h-screen pt-32;
+}
+
+#top_down {
+  @apply flex justify-between flex-row-reverse;
+}
+
+#top_down > svg {
+  @apply h-16 w-16;
+  @apply animate-bounce border border-blue-700 rounded-full p-2;
 }

@@ -1,0 +1,7 @@
+.header_main{
+    @apply max-w-7xl w-full mx-auto h-1/6 fixed flex items-center bg-white;
+}
+
+/* .header_main:not([data-scroll='0']){
+    box-shadow: 0 8px 6px -6px black;
+} */

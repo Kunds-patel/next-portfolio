@@ -1,15 +1,17 @@
 import React from "react";
+import style from "./style.module.css";
 import { LuMenu } from "react-icons/lu";
+
 
 const Header = () => {
   return (
-    <div className="max-w-7xl w-full mx-auto mt-3 fixed">
-      <div className="flex mx-5 justify-between items-center">
-        <button className="logo text-2xl" id="#">
+    <div className={style.header_main}>
+      <div className="flex w-full mx-5 justify-between items-center">
+        <button className="logo text-3xl lg:text-4xl" id="#">
           Kundan <span className="text-blue-500">Patel</span>
         </button>
         <div className="hidden md:block">
-          <ul className="flex gap-16">
+          <ul className="flex gap-10 text-xl lg:text-2xl lg:gap-16">
             <li>
               <a href="#Home">Home</a>
             </li>
