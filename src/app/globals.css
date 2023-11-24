@@ -15,7 +15,12 @@ html {
 }
 
 section {
-  @apply h-screen pt-32;
+  @apply h-screen pt-36;
+  @apply flex justify-center;
+}
+
+section > #title {
+  @apply text-xl font-extrabold;
 }
 
 #top_down {

@@ -5,7 +5,7 @@ const Skill = () => {
   return (
     <div className="">
       <section id="Skills">
-        Skills
+        <h2 id="title">Skills</h2>
         <div id="top_down">
           {/* <AiOutlineArrowDown />
           <AiOutlineArrowUp /> */}

@@ -1,5 +1,6 @@
-.header_main{
-    @apply max-w-7xl w-full mx-auto h-1/6 fixed flex items-center bg-white;
+.header_main {
+  @apply max-w-7xl w-full mx-auto h-1/6 fixed flex items-center bg-white bg-opacity-40;
+  backdrop-filter: blur(5px);
 }
 
 /* .header_main:not([data-scroll='0']){

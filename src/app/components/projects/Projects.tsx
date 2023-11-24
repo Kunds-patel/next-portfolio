@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <section id="Projects">
-        Projects
+        <h2 id="title">Projects</h2>
         <div id="top_down">
           {/* <AiOutlineArrowDown />
           <AiOutlineArrowUp /> */}

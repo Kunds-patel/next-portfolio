@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <section id="About">
-        About
+        <h2 id="title">About Me</h2>
         <div id="top_down">
           {/* <AiOutlineArrowDown />
           <AiOutlineArrowUp /> */}
